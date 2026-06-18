@@ -1,0 +1,23 @@
+name: Workflow1
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-js:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Array JS
+        run: node File1.js
+
+      - name: Run Array Js
+        run: node File2.js
