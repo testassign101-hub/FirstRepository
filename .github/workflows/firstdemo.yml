@@ -17,7 +17,7 @@ jobs:
           node-version: 20
 
       - name: Run Array JS
-        run: node File1.js
+        run: node /Users/mrandmrsgupta/Desktop/GitHubUnderstanding/File1.js
 
       - name: Run Array Js
-        run: node File2.js
+        run: node /Users/mrandmrsgupta/Desktop/GitHubUnderstanding/File2.js
