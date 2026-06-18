@@ -14,10 +14,9 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: v24.15.0
+          node-version: 24
 
       - name: Run Array JS
-        run: node GitHubUnderstanding/File1.js
+        run: node File1.js
 
-      - name: Run Array Js
-        run: node GitHubUnderstanding/File2.js
+      
